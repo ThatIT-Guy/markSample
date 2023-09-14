@@ -15,7 +15,11 @@ public class Main {
                     System.out.println("This is also Good");
                 } else if (marks >= 0) {
                     System.out.println("This is Good as well");
+                } else {
+                    System.out.println("invalid option");
                 }
+                System.out.println("Do you wish to continue '1' for yes & '0' for no");
+                input = sc.nextInt();
             } while (input == 1);
         }else {
             System.out.println("program stopped");
